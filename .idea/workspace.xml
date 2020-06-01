@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ecc6389-1d89-4cc0-918e-63504898dd59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/go_build_goBlog_.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/go_build_goBlog.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../Program/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1chvGZsNWLh6FNi7IOR4fEhhtvL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build goBlog" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="goBlog" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="goBlog" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3341" y="397" key="#Go_Modules" timestamp="1590993651250">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state x="3341" y="397" key="#Go_Modules/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993651250" />
+    <state x="3003" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590993684878">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state x="3003" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993684878" />
+    <state x="3436" y="423" key="EnvironmentVariablesDialog" timestamp="1590993622800">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state x="3436" y="423" key="EnvironmentVariablesDialog/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993622800" />
+    <state x="3329" y="318" key="FileChooserDialogImpl" timestamp="1590993680132">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state x="3329" y="318" key="FileChooserDialogImpl/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993680132" />
+    <state width="1665" height="399" key="GridCell.Tab.0.bottom" timestamp="1590993984363">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state width="1665" height="399" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993984363" />
+    <state width="1665" height="399" key="GridCell.Tab.0.center" timestamp="1590993984363">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state width="1665" height="399" key="GridCell.Tab.0.center/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993984363" />
+    <state width="1665" height="399" key="GridCell.Tab.0.left" timestamp="1590993984363">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state width="1665" height="399" key="GridCell.Tab.0.left/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993984363" />
+    <state width="1665" height="399" key="GridCell.Tab.0.right" timestamp="1590993984363">
+      <screen x="1920" y="-145" width="2560" height="1410" />
+    </state>
+    <state width="1665" height="399" key="GridCell.Tab.0.right/62.0.1858.1080/1920.-145.2560.1410@1920.-145.2560.1410" timestamp="1590993984363" />
+  </component>
+</project>
