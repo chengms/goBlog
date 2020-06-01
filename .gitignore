@@ -1,4 +1,4 @@
 *.tmp
 /.idea
-/bin/*.exe
-/storages/logs/*.log
+bin/*.exe
+storages/logs/*.log
