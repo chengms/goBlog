@@ -1,0 +1,28 @@
+[INFO] 2020/06/03 17:26 --start web--
+[INFO] 2020/06/03 17:26  root 控制器
+[DBUG] 2020/06/03 17:26 MVC dependencies of 'controllers.RootController':
+[1] Dynamic binding: 'context.Context' for field 'Ctx context.Context'
+
+[DBUG] 2020/06/03 17:26 MVC dependencies of method 'controllers.RootController.GetLogin':
+[1] Dynamic binding: 'context.Context' for input position: 1 and type: 'context.Context'
+
+[INFO] 2020/06/03 17:26  定义 Front 子路径
+[DBUG] 2020/06/03 17:26 MVC dependencies of 'controllers.FrontController':
+[1] Dynamic binding: 'context.Context' for field 'Ctx context.Context'
+
+[DBUG] 2020/06/03 17:26 MVC dependencies of method 'controllers.FrontController.Get':
+[1] Dynamic binding: 'context.Context' for input position: 1 and type: 'context.Context'
+
+[DBUG] 2020/06/03 17:26 MVC dependencies of method 'controllers.FrontController.Post':
+[1] Dynamic binding: 'context.Context' for input position: 1 and type: 'context.Context'
+
+[INFO] 2020/06/03 17:26  定义 Admin 子路径
+[DBUG] 2020/06/03 17:26 MVC dependencies of 'controllers.AdminController':
+[1] Dynamic binding: 'context.Context' for field 'Ctx context.Context'
+
+[DBUG] 2020/06/03 17:26 MVC dependencies of method 'controllers.AdminController.GetAdmin':
+[1] Dynamic binding: 'context.Context' for input position: 1 and type: 'context.Context'
+
+[DBUG] 2020/06/03 17:26 MVC dependencies of method 'controllers.AdminController.Post':
+[1] Dynamic binding: 'context.Context' for input position: 1 and type: 'context.Context'
+

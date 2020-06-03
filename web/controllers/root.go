@@ -22,8 +22,14 @@ func Root(context *mvc.Application)  {
 }
 
 //中间件
-func (uc *RootController) BeforeActivation(a mvc.BeforeActivation) {
-	a.Handle("GET", "/", "IndexGet", middleware.RootMiddlewareHere)
+func (uc *RootController) BeforeActivation(root mvc.BeforeActivation) {
+	// 设置子路由
+	rut := root.Router()
+	{
+		rut.Get("/test", myGetTest)
+
+	}
+	root.Handle("GET", "/", "IndexGet", middleware.RootMiddlewareHere)
 }
 
 
@@ -56,3 +62,14 @@ func (uc *RootController)GetLogin(ctx iris.Context)  {
 	}
 }
 
+func(uc *RootController)PostLogin(ctx iris.Context)   {
+
+
+}
+
+func myGetTest(ctx iris.Context)  {
+	iris.New().Logger().Info(" get请求-->test")
+	if err := ctx.View("admin/login.html"); err != nil {
+		ctx.Application().Logger().Infof(err.Error())
+	}
+}

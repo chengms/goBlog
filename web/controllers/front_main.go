@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-
+	"goBlog/web/middleware"
 )
 
 type FrontController struct {
@@ -20,9 +20,16 @@ func Front(context *mvc.Application)  {
 
 
 //中间件
-//func (uc *FrontController) BeforeActivation(a mvc.BeforeActivation) {
-//	a.Handle("GET", "/blog", "BlogGet", middleware.FrontMiddlewareHere)
-//}
+func (uc *FrontController) BeforeActivation(front mvc.BeforeActivation) {
+	// 设置子路由
+	rut := front.Router()
+	{
+		rut.Get("/FrontTest", FrontTest)
+
+	}
+
+	front.Handle("GET", "/", "Get", middleware.FrontMiddlewareHere)
+}
 
 func (uc *FrontController)Get(ctx iris.Context) {
 
@@ -36,5 +43,11 @@ func (uc *FrontController)Post(ctx iris.Context) {
 	if err := ctx.View("articles.html"); err != nil {
 		ctx.Application().Logger().Infof(err.Error())
 	}
+}
+
+func FrontTest(ctx iris.Context) {
+	iris.New().Logger().Info("Front Test")
+
+	ctx.HTML(`"Front Test"`)
 }
 
